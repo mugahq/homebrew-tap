@@ -3,7 +3,7 @@ cask "muga" do
   name "muga"
   desc "Muga CLI — observability for your services"
   homepage "https://muga.sh"
-  version "1.0.5"
+  version "1.0.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "muga" do
   on_macos do
     on_intel do
       url "https://github.com/mugahq/muga/releases/download/v#{version}/muga_darwin_amd64.tar.gz"
-      sha256 "6ba241eca6382ceb32c3172d9f81d2dc5a212d397539734445241ed394fbbb6e"
+      sha256 "37655045cfffea8e01e66a148969714f05c4cf1513e4b088184ef398f1e6b142"
     end
     on_arm do
       url "https://github.com/mugahq/muga/releases/download/v#{version}/muga_darwin_arm64.tar.gz"
-      sha256 "9fe548416e0abebce6dd948f69d61f185b4839213a7a759b378210b503420b4c"
+      sha256 "d7e971cd9351b04b82676797ca59056d2cd775f66ee46fd207d5cd6f77a7b079"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mugahq/muga/releases/download/v#{version}/muga_linux_amd64.tar.gz"
-      sha256 "c6b5beb11be628bc708d9039f20768fae63694d5f52cac345e2f7cc5897e9f22"
+      sha256 "305df57d105ff63e2a4cd8ce0592365a2bd076e856b270f3fc8115b8578d73dc"
     end
     on_arm do
       url "https://github.com/mugahq/muga/releases/download/v#{version}/muga_linux_arm64.tar.gz"
-      sha256 "c61268ccfb6bc556c710521152fff5b5fe80b6c2793b98da776164916eaa2dee"
+      sha256 "fc0b2cfa37898657386ad4febfa17a49af7d47bdabaf2b08e7a937d352486f0b"
     end
   end
 
